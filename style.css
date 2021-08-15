@@ -1,0 +1,71 @@
+
+
+h1 {
+    text-align:center;
+    padding-top: 15px;
+    font-size: 3.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6EE7B7;
+    border-radius: 90px;
+    border-style: dashed;
+    color: black;
+    border-color: yellow;
+    height: 80px;
+    margin-top: 0.4em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+section {
+    display: flex;
+    max-width:55%;
+    margin: 4rem 15% 4rem 15%;
+    height: 60vh;
+    background-color: #ffffff66;
+    box-shadow: 3px 8px 15px #d9dade, -10px -8px 15px #ffffff;
+    border-radius: 3rem;
+  }
+.card{
+    /* top | right | bottom | left */
+    margin:1.5rem 5rem 1rem 15rem ;
+}
+input,label {
+    display: block;
+    /* top | right | bottom | left */
+    padding:0.5rem 0.1rem 0.5rem 0.1rem ;
+}
+
+input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 3em;
+}
+
+label{
+    color:#6EE7B7;
+    font-size: 2.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#btn {
+    display: block;
+    margin-top: 8rem;
+    margin:auto;
+    border-color:#6EE7B7;
+    border-width: medium;
+    padding-top: 0.2rem;
+    border-radius: 0.5rem;
+    font-size: 2.5em;
+}
+
+#output-box {
+    /* top | right | bottom | left */
+    margin: 2.3rem 2rem 1rem 2rem ;
+    color: #011756;
+    font-weight:900;
+    font-size: 2.6rem;
+  }
+  
+
+
+  
