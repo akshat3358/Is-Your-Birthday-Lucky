@@ -30,7 +30,7 @@ function calculateSum(dob){
 }
 
 function compareValues(sum,userLuckyNumber){
-  if(sum%userLuckyNumber === 0){
+  if(sum%userLuckyNumber === 0 && userLuckyNumber>0){
      outputBox.innerText="Your Birthday is Lucky.."; 
   }
   else{
